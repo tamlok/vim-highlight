@@ -123,7 +123,7 @@ if !exists('g:lcolor_bg_cterm')
 endif
 
 if !exists('g:lcolor_fg_cterm')
-   let g:lcolor_fg_cterm = "White,Black,White,White,White,White,Black,Black"
+   let g:lcolor_fg_cterm = "White,Black,White,White,Black,White,Black,Black"
 endif
 
 " Define colors for Pattern highlight
