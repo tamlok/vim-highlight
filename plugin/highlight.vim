@@ -140,7 +140,7 @@ if !exists('g:pcolor_bg_cterm')
 endif
 
 if !exists('g:pcolor_fg_cterm')
-   let g:pcolor_fg_cterm = "White,Black,White,White,White,White,Black,Black"
+   let g:pcolor_fg_cterm = "White,Black,White,White,Black,White,Black,Black"
 endif
 
 
