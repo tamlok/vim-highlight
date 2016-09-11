@@ -56,57 +56,57 @@ syntax on
 " -- Normal mode mappings --
 
 " Highlight current line 
-noremap  <silent> <C-h><C-h> :call <SID>Highlight("h") \| nohls<CR>
+noremap  <silent> <leader>hl :call <SID>Highlight("h") \| nohls<CR>
 " Advance color for next line highlight
-noremap  <silent> <C-h><C-a> :call <SID>Highlight("a")<CR>
+noremap  <silent> <leader>hn :call <SID>Highlight("a")<CR>
 " Clear last line highlight
-noremap  <silent> <C-h><C-r> :call <SID>Highlight("r")<CR>
+noremap  <silent> <leader>hu :call <SID>Highlight("r")<CR>
 
 " Highlight word under cursor (whole word match)
-noremap  <silent> <C-h><C-w> :call <SID>Highlight("w") \| nohls<CR>
+noremap  <silent> <leader>hw :call <SID>Highlight("w") \| nohls<CR>
 " Highlight all lines having word under cursor (whole word match)
-noremap  <silent> <C-h><C-l> :call <SID>Highlight("l") \| nohls<CR>
+" noremap  <silent> <C-h><C-l> :call <SID>Highlight("l") \| nohls<CR>
 " Highlight word under cursor (partial word match)
-noremap  <silent> <C-h><C-f> :call <SID>Highlight("f") \| nohls<CR>
+" noremap  <silent> <C-h><C-f> :call <SID>Highlight("f") \| nohls<CR>
 " Highlight all lines having word under cursor (partial word match)
-noremap  <silent> <C-h><C-k> :call <SID>Highlight("k") \| nohls<CR>
+" noremap  <silent> <C-h><C-k> :call <SID>Highlight("k") \| nohls<CR>
 " Highlight last search pattern
-noremap  <silent> <C-h><C-s> :call <SID>Highlight("s") \| nohls<CR>
+noremap  <silent> <leader>hs :call <SID>Highlight("s") \| nohls<CR>
 " Highlight all lines having last search pattern
-noremap  <silent> <C-h><C-j> :call <SID>Highlight("j") \| nohls<CR>
+" noremap  <silent> <C-h><C-j> :call <SID>Highlight("j") \| nohls<CR>
 " Clear last pattern highlight
-noremap  <silent> <C-h><C-d> :call <SID>Highlight("d")<CR>
+" noremap  <silent> <C-h><C-d> :call <SID>Highlight("d")<CR>
 
 " Clear all highlights
-noremap  <silent> <C-h><C-n> :call <SID>Highlight("n")<CR>
+noremap  <silent> <leader>hc :call <SID>Highlight("n")<CR>
 
 
 " -- Insert mode mappings --
 
-" Highlight current line 
-inoremap <silent> <C-h><C-h> <C-o>:call <SID>Highlight("h")<CR>
+" Highlight current line
+" inoremap <silent> <C-h><C-h> <C-o>:call <SID>Highlight("h")<CR>
 " Advance color for next line highlight
-inoremap <silent> <C-h><C-a> <C-o>:call <SID>Highlight("a")<CR>
+" inoremap <silent> <C-h><C-a> <C-o>:call <SID>Highlight("a")<CR>
 " Clear last line highlight
-inoremap <silent> <C-h><C-r> <C-o>:call <SID>Highlight("r")<CR>
+" inoremap <silent> <C-h><C-r> <C-o>:call <SID>Highlight("r")<CR>
 
 " Highlight word under cursor (whole word match)
-inoremap <silent> <C-h><C-w> <C-o>:call <SID>Highlight("w") \| nohls<CR>
+" inoremap <silent> <C-h><C-w> <C-o>:call <SID>Highlight("w") \| nohls<CR>
 " Highlight all lines having word under cursor (whole word match)
-inoremap <silent> <C-h><C-l> <C-o>:call <SID>Highlight("l") \| nohls<CR>
+" inoremap <silent> <C-h><C-l> <C-o>:call <SID>Highlight("l") \| nohls<CR>
 " Highlight word under cursor (partial word match)
-inoremap <silent> <C-h><C-f> <C-o>:call <SID>Highlight("f") \| nohls<CR>
+" inoremap <silent> <C-h><C-f> <C-o>:call <SID>Highlight("f") \| nohls<CR>
 " Highlight all lines having word under cursor (partial word match)
-inoremap <silent> <C-h><C-k> <C-o>:call <SID>Highlight("k") \| nohls<CR>
+" inoremap <silent> <C-h><C-k> <C-o>:call <SID>Highlight("k") \| nohls<CR>
 " Highlight last search pattern
-inoremap <silent> <C-h><C-s> <C-o>:call <SID>Highlight("s") \| nohls<CR>
+" inoremap <silent> <C-h><C-s> <C-o>:call <SID>Highlight("s") \| nohls<CR>
 " Highlight all lines having last search pattern
-inoremap <silent> <C-h><C-j> <C-o>:call <SID>Highlight("j") \| nohls<CR>
+" inoremap <silent> <C-h><C-j> <C-o>:call <SID>Highlight("j") \| nohls<CR>
 " Clear last pattern highlight
-inoremap <silent> <C-h><C-d> <C-o>:call <SID>Highlight("d")<CR>
+" inoremap <silent> <C-h><C-d> <C-o>:call <SID>Highlight("d")<CR>
 
 " Clear all highlights
-inoremap <silent> <C-h><C-n> <C-o>:call <SID>Highlight("n")<CR>
+" inoremap <silent> <C-h><C-n> <C-o>:call <SID>Highlight("n")<CR>
 
 
 " Define colors for Line highlight
