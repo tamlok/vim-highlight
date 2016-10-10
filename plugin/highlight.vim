@@ -51,7 +51,8 @@ if exists("loaded_highlight")
 endif
 let loaded_highlight = ""
 
-syntax on
+" Will disable markdown_quote_syntax plugin
+" syntax on
 
 " -- Normal mode mappings --
 
